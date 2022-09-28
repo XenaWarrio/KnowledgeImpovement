@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MVVMFragment">
+
+    <fragment
+        android:id="@+id/cleanArchitectureFragment"
+        android:name="com.example.knowledgeimprovement.clean_architecture.CleanArchitectureFragment"
+        android:label="CleanArchitectureFragment" >
+        <action
+            android:id="@+id/action_cleanArchitectureFragment_to_MVIFragment"
+            app:destination="@id/MVIFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/MVIFragment"
+        android:name="com.example.knowledgeimprovement.mvi.MVIFragment"
+        android:label="MVIFragment" >
+        <action
+            android:id="@+id/action_MVIFragment_to_MVVMFragment"
+            app:destination="@id/MVVMFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/MVVMFragment"
+        android:name="com.example.knowledgeimprovement.mvvm.MVVMFragment"
+        android:label="MVVMFragment" >
+        <action
+            android:id="@+id/action_MVVMFragment_to_cleanArchitectureFragment"
+            app:destination="@id/cleanArchitectureFragment" />
+    </fragment>
+</navigation>

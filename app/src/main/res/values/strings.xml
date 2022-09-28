@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">KnowledgeImprovement</string>
+    <string name="to_next_fragment">To next fragment</string>
+    <string name="mvvm">MVVM</string>
+    <string name="mvi">MVI</string>
+    <string name="clean_architecture">Clean Architecture</string>
 </resources>
