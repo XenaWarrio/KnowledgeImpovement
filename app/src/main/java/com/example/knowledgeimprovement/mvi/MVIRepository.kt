@@ -1,8 +1,8 @@
 package com.example.knowledgeimprovement.mvi
 
-import com.example.knowledgeimprovement.ApiInterface
-import com.example.knowledgeimprovement.MovieResponse
-import com.example.knowledgeimprovement.RetrofitClient
+import com.example.knowledgeimprovement.api.ApiInterface
+import com.example.knowledgeimprovement.api.RetrofitClient
+import com.example.knowledgeimprovement.model.network.MovieResponse
 
 class MVIRepository {
     suspend fun getMovies(): List<MovieResponse>? {

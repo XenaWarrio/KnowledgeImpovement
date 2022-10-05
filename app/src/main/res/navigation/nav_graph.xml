@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/cleanArchitectureFragment"
-        android:name="com.example.knowledgeimprovement.clean_architecture.CleanArchitectureFragment"
+        android:name="com.example.knowledgeimprovement.cleanArchitecture.CleanArchitectureFragment"
         android:label="CleanArchitectureFragment" >
         <action
             android:id="@+id/action_cleanArchitectureFragment_to_MVIFragment"

@@ -1,5 +1,6 @@
-package com.example.knowledgeimprovement
+package com.example.knowledgeimprovement.api
 
+import com.example.knowledgeimprovement.model.network.Results
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

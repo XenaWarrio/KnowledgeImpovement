@@ -1,4 +1,4 @@
-package com.example.knowledgeimprovement
+package com.example.knowledgeimprovement.api
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
