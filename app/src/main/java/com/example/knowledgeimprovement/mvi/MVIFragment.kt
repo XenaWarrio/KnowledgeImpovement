@@ -39,7 +39,10 @@ class MVIFragment : Fragment(R.layout.fragment) {
 
     private fun setUpUi() {
         with(binding) {
-            recycler.adapter = adapter
+            recycler.apply {
+                adapter = adapter
+                hasFixedSize()
+            }
             btNextFragment.setOnClickListener {
                 findNavController().navigate(R.id.action_MVIFragment_to_MVVMFragment)
             }
